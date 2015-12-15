@@ -87,14 +87,6 @@ public void addTab(final ViewPager viewPager, TabLayout tabLayout){
     viewPager.setCurrentItem(getCount() - 1, true);
 }
 ```
-
-### Add onClick listener to add tab
-
-```java
-public void addTabOnClick(View view) {
-    mSectionsPagerAdapter.addTab(mViewPager, mTabLayout);
-}
-```   
  
 ### Override onCreate in main activiy
  
